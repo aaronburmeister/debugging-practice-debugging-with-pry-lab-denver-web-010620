@@ -13,6 +13,7 @@ end
 
 def greet_crew (crew_list)
   crew_list.each {|crew_member| crew_member = "Hello #{crew_member}."}
+  crew_list
 end
 
 def engage
